@@ -11,10 +11,10 @@
 ### Requirements:
 #### HTML
 * [ ] create index.html with
-  * [ ] `<html>`
-  * [ ] `<head>`
-  * [ ] `<title>`
-  * [ ] `<body>`
+  * [x] `<html>`
+  * [x] `<head>`
+  * [x] `<title>`
+  * [x] `<body>`
 * Build a page that:
   * Tells a story. This can be personal, or not. Funny, serious or neither. You can do whatever you like, but generally, it should be something in the range of
     * [ ] 3-10 paragraphs or sections
