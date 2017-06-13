@@ -29,4 +29,18 @@
   * [ ] Is creative. Don't stop with these items or tags. Have some ideas for your page, and make it great.
   * [x] Do not add CSS yet.  
   * [ ] You're free to use tags that haven't been explicitly introduced in class
-* [ ] Pass w3 validator
+* [x] Pass w3 validator
+
+#### CSS
+* [ ] Create a file named styles.css in your html-me-something/ directory
+* [ ] OPTIONAL - Add a normalization stylesheet.
+* [ ] specific requirements
+  * [ ] margin
+  * [ ] padding
+  * [ ] element
+  * [ ] class
+  * [ ] id
+* [ ] Don't break these rules:
+  * At all costs, avoid adding HTML elements in order to achieve a specific visual effect.
+  * Use document-level and inline styles sparingly, and only when absolutely necessary.
+* [ ] add something from yourself.
