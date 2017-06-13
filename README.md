@@ -17,15 +17,16 @@
   * [x] `<body>`
 * Build a page that:
   * Tells a story. This can be personal, or not. Funny, serious or neither. You can do whatever you like, but generally, it should be something in the range of
-    * [ ] 3-10 paragraphs or sections
+    * [x] 3-10 paragraphs or sections
   * [ ] Uses each of the following structural HTML5 tags:
-    * [ ] `<p>`
+    * [x] `<p>`
     * [ ] `<header>`
-    * [ ] `<footer>`
+    * [x] `<footer>`
     * [ ] `<main>`
-    * [ ] `<article>`
-    * [ ] Uses at least one `<img>` tag (and hopefully more). When placing images in your page, put them in a new sub-folder called images within your html-me-something directory.
+    * [x] `<article>`
+    * [x] Uses at least one `<img>` tag (and hopefully more). When placing images in your page, put them in a new sub-folder called images within your html-me-something directory.
     * [ ] Uses at least one HTML entity.
   * [ ] Is creative. Don't stop with these items or tags. Have some ideas for your page, and make it great.
   * [ ] Do not add CSS yet.  
   * [ ] You're free to use tags that haven't been explicitly introduced in class
+* [ ] Pass w3 validator
