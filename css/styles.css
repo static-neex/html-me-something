@@ -1,0 +1,73 @@
+html { background-color: rgb(66, 69, 158);}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 80%;
+  margin: 20px 10%;
+  padding: 2% 10% 1% 10%;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: 'Lato', sans-serif;
+}
+
+main header { text-align: center;}
+
+p {text-align: justify;}
+
+/* Images */
+.img { width: 50px;}
+
+#bucket {
+  width: 2em;
+  margin-bottom: -1em;
+}
+
+/* Navigation */
+nav {
+  background-color: #42459e; /* eliminates white space between links */
+  padding: 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0; /* removes default ul padding */
+  margin: 0; /* necessary to fix middle button color */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav ul li {
+  display: inline;
+  color: white;
+  background-color: #42459e;
+  line-height: 4em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #eee;
+  margin: 0 1em;
+}
+
+.middle-menu {
+  background-color: #9E9B42;
+  padding: 0 1.5em;
+}
+
+footer { margin-top: 1em;} /* add apsaing for footer menu */
+
+footer p {
+  margin-top: 2em;
+  color: #dfdfdf;
+  text-align: center;
+}
