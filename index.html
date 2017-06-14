@@ -5,23 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Bucket List</title>
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Merriweather&amp;subset=latin-ext" rel="stylesheet">
+
+
     <!-- CSS Reset -->
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#budapest">Budapest, Hungary</a>
-        <a href="#petra">Petra, Jordan</a>
-        <a href="#cook">The Cook Islands</a>
-      </nav>
-    </header>
-
     <main>
-      <h1>NeeX'es Travel Bucket List</h1>
-      <p>One suitcase at a time.</p>
-      <img src="images/bucket.png" alt="Image of a bucket">
+      <header>
+        <h1>NeeX'es&nbsp;Travel<br />
+          <img id="bucket" src="images/bucket.png" alt="Image of a bucket"><br />
+           Bucket&nbsp;List</h1>
+        <nav class="menu">
+          <ul>
+            <li><a href="#budapest">Budapest, Hungary</a></li>
+            <li class="middle-menu"><a href="#petra">Petra, Jordan</a></li>
+            <li><a href="#cook">The Cook Islands</a></li>
+          </ul>
+        </nav>
+      </header>
+
       <article>
         <a id="budapest"><h2>Budapest, Hungary</h2></a>
         <h3>History</h3>
@@ -37,9 +43,9 @@
             <li><a href="https://www.lonelyplanet.com/hungary/budapest">Lonely Planet</a></li>
             <li><a href="http://www.bud.hu/english">Airport</a></li>
           </ol>
-          <img src="images/Budapest-St._Stephen's_Basilica.jpg" alt="Stephen's Basilica">
-          <img src="images/Hungarian_National_Theater_Budapest.jpg" alt="Hungarian National Theater Budapest">
-          <img src="images/Millennium_Monument._Budapest.jpg" alt="Millennium Monument in Budapest">
+          <img class="img" src="images/Budapest-St._Stephen's_Basilica.jpg" alt="Stephen's Basilica">
+          <img class="img" src="images/Hungarian_National_Theater_Budapest.jpg" alt="Hungarian National Theater Budapest">
+          <img class="img" src="images/Millennium_Monument._Budapest.jpg" alt="Millennium Monument in Budapest">
         </aside>
 
       </article>
@@ -52,7 +58,7 @@
         <h3>Threats to Petra</h3>
         <p>The site suffers from a host of threats, including collapse of ancient structures, erosion due to flooding and improper rainwater drainage, weathering from salt upwelling, improper restoration of ancient structures, and unsustainable tourism. The last has increased substantially, especially since the site received widespread media coverage in 2007 during the New Seven Wonders of the World Internet and cell phone campaign. In an attempt to reduce the impact of these threats, Petra National Trust (PNT) was established in 1989. Over this time, it has worked together with numerous local and international organizations on projects that promote the protection, conservation and preservation of the Petra site. Moreover, UNESCO and ICOMOS recently collaborated to publish their first book on human and natural threats to these sensitive World Heritage sites. They chose Petra as its first, and the most important example of threatened landscapes. A book released in 2012, Tourism and Archaeological Heritage Management at Petra: Driver to Development or Destruction?, was the first in a series of important books to address the very nature of these deteriorating buildings, cities, sites, and regions. The next books in the series of deteriorating UNESCO World Heritage Sites will include Machu Picchu, Angkor Wat, and Pompeii.</p>
 
-        <img src="/home/argon/Code/html-me-something/images/Koenigsgraeber.jpg" alt="Panaramic view of Petra">
+        <img class="img" src="/home/argon/Code/html-me-something/images/Koenigsgraeber.jpg" alt="Panaramic view of Petra">
 
         <aside> <!-- -->
           <h3>Links</h3>
@@ -61,9 +67,9 @@
             <li><a href="http://www.pbase.com/dosseman_jordan/petra">More images</a></li>
             <li><a href="http://whc.unesco.org/en/list/326">Petra @ UNESCO</a></li>
           </ol>
-          <img src="images/Al_khazneh.jpg" alt="Al khazneh">
-          <img src="images/Petra_general_view.JPG" alt="General view of Petra">
-          <img src="images/Petra_Jordan_dwellings.JPG" alt="Petra dwellings">
+          <img class="img" src="images/Al_khazneh.jpg" alt="Al khazneh">
+          <img class="img" src="images/Petra_general_view.JPG" alt="General view of Petra">
+          <img class="img" src="images/Petra_Jordan_dwellings.JPG" alt="Petra dwellings">
         </aside>
 
       </article>
@@ -83,21 +89,25 @@
             <li><a href="https://www.expedia.com/Cook-Islands.d41.Destination-Travel-Guides">On Expedia</a></li>
             <li><a href="http://www.ck/">The definitive Cook Islands website</a></li>
           </ol>
-          <img src="images/Aitutaki-Motu_Tapuaetai.jpg" alt="Aitutaki-Motu Tapuaetai">
-          <img src="images/cook_nightlife.jpg" alt="The Cook Islands nightlife">
-          <img src="images/Penrhyn_Aerial.jpg" alt="Penrhyn aerial view">
-          <img src="images/Rarotonga_beach.jpg" alt="Rarotonga beach">
+          <img class="img" src="images/Aitutaki-Motu_Tapuaetai.jpg" alt="Aitutaki-Motu Tapuaetai">
+          <img class="img" src="images/cook_nightlife.jpg" alt="The Cook Islands nightlife">
+          <img class="img" src="images/Penrhyn_Aerial.jpg" alt="Penrhyn aerial view">
+          <img class="img" src="images/Rarotonga_beach.jpg" alt="Rarotonga beach">
         </aside>
 
       </article>
     </main>
 
     <footer>
-      <nav>
-        <a href="#budapest">Budapest, Hungary</a>
-        <a href="#petra">Petra, Jordan</a>
-        <a href="#cook">The Cook Islands</a>
+      <nav class="menu">
+        <ul>
+          <li><a href="#budapest">Budapest, Hungary</a></li>
+          <li class="middle-menu"><a href="#petra">Petra, Jordan</a></li>
+          <li><a href="#cook">The Cook Islands</a></li>
+        </ul>
       </nav>
+
+      <p>Copyleft &copy; 2017</p>
     </footer>
   </body>
 </html>

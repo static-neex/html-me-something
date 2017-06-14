@@ -53,3 +53,13 @@ main header {
 p {
   text-align: justify;
 }
+
+/* Images */
+.img {
+  width: 50px;
+}
+
+#bucket {
+  width: 2em;
+  margin-bottom: -1em;
+}
