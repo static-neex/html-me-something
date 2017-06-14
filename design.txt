@@ -1,0 +1,24 @@
+Color picker:
+http://htmlcolorcodes.com/color-picker/
+
+Complimentary
+#42459E => 66, 69, 158
+#9E9B42 => 158, 155, 66
+
+Neutral:
+#42459e
+#56429e
+#6d429e
+#84429e
+#9b429e
+#9e428a
+
+Shades:
+#42459e
+#3a3c8a
+#323477
+#292b63
+#21234f
+#191a3b
+#111128
+#080914
