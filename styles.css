@@ -1,11 +1,29 @@
-html { background-color: rgb(66, 69, 158);}
+/* Box Model */
 
-body {
-  font-family: 'Merriweather', serif;
-  font-size: 80%;
-  margin: 20px 10%;
-  padding: 2% 10% 1% 10%;
-  background-color: white;
+*
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html
+{
+    background-color: rgb(66, 69, 158);
+}
+
+body
+{
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 80%;
+    line-height: 1.3;
+
+    max-width: 50em;
+    margin: 20px 10%;
+    padding: 4em 2em;
+
+    color: #555;
+    background-color: #fff;
 }
 
 h1,
@@ -14,56 +32,145 @@ h3,
 h4,
 h5,
 h6,
-nav {
-  font-family: 'Lato', sans-serif;
+nav,
+strong
+{
+    color: #333;
 }
 
-main header { text-align: center;}
+main header
+{
+    font-family: 'Lato', sans-serif;
 
-p {text-align: justify;}
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+}
+
 
 /* Images */
-.img { width: 50px;}
 
-#bucket {
-  width: 2em;
-  margin-bottom: -1em;
+.img
+{
+    width: 50px;
 }
+
+#bucket
+{
+    width: 2em;
+    margin-bottom: -1em;
+}
+
 
 /* Navigation */
-nav {
-  background-color: #42459e; /* eliminates white space between links */
-  padding: 0;
-}
-nav ul {
-  list-style-type: none;
-  padding: 0; /* removes default ul padding */
-  margin: 0; /* necessary to fix middle button color */
-  display: flex;
-  justify-content: space-between;
-}
-nav ul li {
-  display: inline;
-  color: white;
-  background-color: #42459e;
-  line-height: 4em;
+
+nav
+{
+    /* eliminates white space between links */
+    padding: 0;
+
+    background-color: #42459e;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #eee;
-  margin: 0 1em;
+nav ul
+{
+    /* necessary to fix middle button color */
+    display: flex;
+    /* removes default ul padding */
+
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+    justify-content: space-between;
 }
 
-.middle-menu {
-  background-color: #9E9B42;
-  padding: 0 1.5em;
+nav ul li
+{
+    line-height: 4em;
+
+    display: inline;
+
+    color: white;
+    background-color: #42459e;
 }
 
-footer { margin-top: 1em;} /* add apsaing for footer menu */
+nav ul li a
+{
+    margin: 0 1em;
 
-footer p {
-  margin-top: 2em;
-  color: #dfdfdf;
-  text-align: center;
+    text-decoration: none;
+
+    color: #eee;
 }
+
+nav ul li a:visited
+{
+    color: #eee;
+
+}
+
+nav ul li a:hover
+{
+    text-shadow: none;
+
+}
+
+.middle-menu
+{
+    padding: 0 1.5em;
+
+    background-color: #9e9b42;
+}
+
+footer
+{
+    margin-top: 1em;
+}
+
+
+/* add apsaing for footer menu */
+
+footer p
+{
+    margin-top: 2em;
+
+    text-align: center;
+
+    color: #dfdfdf;
+}
+
+
+/* Links */
+
+a
+{
+    text-decoration: none;
+
+    color: #9e428a;
+}
+
+a:hover
+{
+    text-shadow: 1px 1px 2px #42459e;
+}
+
+a:visited
+{
+    color: #6d429e;
+}
+
+
+/*
+Neutral:
+#42459e
+#56429e
+#6d429e
+#84429e
+#9b429e
+#9e428a
+*/
