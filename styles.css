@@ -1,0 +1,55 @@
+/* Color picker:
+http://htmlcolorcodes.com/color-picker/
+Complimentary
+#42459E => 66, 69, 158
+#9E9B42 => 158, 155, 66
+
+Neutral:
+#42459e
+#56429e
+#6d429e
+#84429e
+#9b429e
+#9e428a
+
+Shades:
+#42459e
+#3a3c8a
+#323477
+#292b63
+#21234f
+#191a3b
+#111128
+#080914
+
+*/
+
+html {
+  background-color: rgb(66, 69, 158);
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 80%;
+  margin: 20px 10%;
+  padding: 2% 10% 1% 10%;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: 'Lato', sans-serif;
+}
+
+main header {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
