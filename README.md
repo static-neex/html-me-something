@@ -1,10 +1,10 @@
 ## Assignment 1 - HTML me something
 ### Tools stuff:
 * [x] make it a git repository
-* [ ] commit your work (feature by feature)
+* [x] commit your work (feature by feature)
 * [x] create Github repository => https://github.com/static-neex/html-me-something
-* [ ] push to GitHub
-* [ ] submit to Canvas
+* [x] push to GitHub
+* [x] submit to Canvas
 * [ ] show to a TF
 * [x] activate Github Pages => http://static.neex.io/html-me-something
 
@@ -26,9 +26,9 @@
     * [x] `<article>`
     * [x] Uses at least one `<img>` tag (and hopefully more). When placing images in your page, put them in a new sub-folder called images within your html-me-something directory.
     * [x] Uses at least one HTML entity.
-  * [ ] Is creative. Don't stop with these items or tags. Have some ideas for your page, and make it great.
+  * [x] Is creative. Don't stop with these items or tags. Have some ideas for your page, and make it great.
   * [x] Do not add CSS yet.  
-  * [ ] You're free to use tags that haven't been explicitly introduced in class
+  * [x] You're free to use tags that haven't been explicitly introduced in class
 * [x] Pass w3 validator
 
 #### CSS
@@ -44,3 +44,10 @@
   * At all costs, avoid adding HTML elements in order to achieve a specific visual effect.
   * Use document-level and inline styles sparingly, and only when absolutely necessary.
 * [x] add something from yourself.
+
+
+* TODO: rescale images
+* TODO: resize images
+* TODO: optimize images
+* TODO: menu shadow on hover
+* TODO: menu whole area click
