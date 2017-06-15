@@ -31,13 +31,13 @@ h3,
 h4,
 h5,
 h6,
-nav,
 strong
 {
     color: #333;
 }
 
-main header
+main header, 
+footer
 {
     font-family: 'Lato', sans-serif;
 
@@ -76,19 +76,19 @@ nav
 
 nav ul
 {
-    /* necessary to fix middle button color */
     display: flex;
-    justify-content: space-between;
-    /* removes default ul padding */
-
+    /*justify-content: space-between;
+*/
     margin: 0;
-    padding: 0;
-
+    padding: 0; /* removes default ul padding */
+    
     list-style-type: none;
 }
 
 nav ul li
 {
+    flex: 1;
+    
     line-height: 4em;
 
     display: inline;
@@ -129,7 +129,7 @@ footer
 }
 
 
-/* add apsaing for footer menu */
+/* add spacing for footer menu */
 
 footer p
 {
@@ -158,4 +158,30 @@ a:hover
 a:visited
 {
     color: #6d429e;
+}
+
+/* Media queries */
+@media all and (max-width:1160px) {
+  nav ul 
+  {
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    flex: 1 1 50%;
+  }
+}
+
+@media all and (max-width:785px) {
+  nav ul li {
+    flex: 0 0 100%;
+    line-height: 2em;
+  }
+  body {
+    padding-left: 0;
+    padding-right: 0; 
+  }
+  html {
+    background-color: white;
+  }
 }
