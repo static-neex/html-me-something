@@ -54,7 +54,7 @@ p
 
 .img
 {
-    width: 50px;
+    max-width: 100%;
 }
 
 #bucket
@@ -159,6 +159,38 @@ a:visited
 {
     color: #6d429e;
 }
+
+/* Orginize aside */
+
+article {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+section {
+  margin-right: 1em;
+}
+
+aside {
+  flex-basis: 165px;
+  max-width: 165px;
+  min-width: 165px;
+  display: flex; /* make the item a flex container by itself, to auto-display images */
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  align-items: flex-start;
+}
+
+.images img {
+  width: 50%;
+  
+}
+
 
 /* Media queries */
 @media all and (max-width:1160px) {
