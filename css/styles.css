@@ -8,14 +8,13 @@
 
 html
 {
-    background-color: rgb(66, 69, 158);
+    background-color: #42459e;
 }
 
 body
 {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-    font-size: 80%;
-    line-height: 1.3;
+    line-height: 1.4;
 
     margin: 2em 10%;
     padding: 4em 2em 2em 2em;
@@ -167,7 +166,6 @@ a:visited
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  /*flex-direction: column;*/
 }
 
 .images img {
@@ -181,6 +179,9 @@ a:visited
   padding: 0 0.5em;
 }
 
+.widescreen {
+  width: 100%;
+}
 aside {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,9 +199,6 @@ aside h4 {
 aside a {
   margin-left: 1em;
 }
-
-
-
 
 /* Media queries */
 @media all and (max-width:1160px) {
