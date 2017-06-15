@@ -45,9 +45,9 @@
   * Use document-level and inline styles sparingly, and only when absolutely necessary.
 * [x] add something from yourself.
 
-
-* TODO: rescale images
-* TODO: resize images
-* TODO: optimize images
-* TODO: menu shadow on hover
-* TODO: menu whole area click
+### TODO:
+* [ ] TODO: re-scale images to max width (retina?)
+* [ ] TODO: resize images to fit sections
+* [x] TODO: optimize images (gulp installed)
+* [ ] TODO: menu shadow on hover
+* [ ] TODO: menu whole area click

@@ -19,9 +19,7 @@ gulp.task('normalize',function() {
 // Optimize images
 gulp.task('image', function () {
   gulp.src('src/images/*')
-    .pipe(image({
-      concurrent: 10
-    }))
+    .pipe(image())
     .pipe(gulp.dest('images'));
 });
 
