@@ -1,0 +1,15 @@
+[16:19:13] Using gulpfile ~/code/html-me-something/gulpfile.js
+[16:19:13] Starting 'optimize'...
+[16:19:13] Finished 'optimize' after 39 ms
+[16:19:14] ✔ Hungarian_National_Theater_Budapest.jpg -> before=87.49 KB after=49.12 KB reduced=38.37 KB(43.9%)
+[16:19:15] ✔ Al_khazneh.jpg -> before=188.93 KB after=73.2 KB reduced=115.73 KB(61.3%)
+[16:19:15] ✔ Budapest-St._Stephen's_Basilica.jpg -> before=57.76 KB after=53.55 KB reduced=4.21 KB(7.3%)
+[16:19:15] ✔ Millennium_Monument._Budapest.jpg -> before=47.83 KB after=38.78 KB reduced=9.05 KB(18.9%)
+[16:19:15] ✔ Petra_Jordan_dwellings.JPG -> before=46.37 KB after=37.18 KB reduced=9.19 KB(19.8%)
+[16:19:15] ✔ Koenigsgraeber.jpg -> before=82.37 KB after=75.54 KB reduced=6.83 KB(8.3%)
+[16:19:15] ✔ Aitutaki-Motu_Tapuaetai.jpg -> before=102.69 KB after=97.2 KB reduced=5.5 KB(5.4%)
+[16:19:15] ✔ Penrhyn_Aerial.jpg -> before=34.99 KB after=33.06 KB reduced=1.92 KB(5.5%)
+[16:19:15] ✔ cook_nightlife.jpg -> before=36.55 KB after=35.22 KB reduced=1.33 KB(3.6%)
+[16:19:15] ✔ Petra_general_view.JPG -> before=87.12 KB after=73.9 KB reduced=13.22 KB(15.2%)
+[16:19:16] ✔ Rarotonga_beach.jpg -> before=109.77 KB after=102.35 KB reduced=7.42 KB(6.8%)
+[16:19:18] ✔ bucket.png -> before=7.47 KB after=6.57 KB reduced=920 B(12%)

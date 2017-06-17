@@ -223,9 +223,9 @@ aside a {
     line-height: 2em;
   }
   body {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
   }
+
   html {
     background-color: #fff;
   }
@@ -245,3 +245,21 @@ aside a {
     padding: 0.5em 0;
   }
 }
+
+@media all and (max-width:910px) {
+    aside {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; 
+    }
+
+    aside a {
+        margin-left: 0; 
+    }  
+}
+
+

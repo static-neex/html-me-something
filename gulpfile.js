@@ -17,11 +17,14 @@ gulp.task('normalize',function() {
 });
 
 // Optimize images
-gulp.task('image', function () {
+gulp.task('optimize', function () {
   gulp.src('src/images/*')
     .pipe(image())
     .pipe(gulp.dest('images'));
 });
+
+
+
 
 // auto-watch for changes
 gulp.task('watch',function() {
