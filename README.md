@@ -5,7 +5,7 @@
 * [x] create Github repository => https://github.com/static-neex/html-me-something
 * [x] push to GitHub
 * [x] submit to Canvas
-* [ ] show to a TF
+* [x] show to a TF
 * [x] activate Github Pages => http://static.neex.io/html-me-something
 
 ### Requirements:
