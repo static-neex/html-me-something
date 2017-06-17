@@ -52,5 +52,5 @@
 * [x] menu shadow on hover
 * [x] menu whole area click
 * [ ] TODO: make screenshots
-* [ ] TODO: minify files
-* [ ] TODO: research usage of img inside h1
+* [x] minify files
+* [x] research usage of img inside h1 - allowed, and even used by w3 themselves :)
