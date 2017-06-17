@@ -46,8 +46,11 @@
 * [x] add something from yourself.
 
 ### TODO:
-* [ ] TODO: re-scale images to max width (retina?)
-* [ ] TODO: resize images to fit sections
-* [x] TODO: optimize images (gulp installed)
-* [ ] TODO: menu shadow on hover
-* [ ] TODO: menu whole area click
+* [x] re-scale images to max width (retina?)
+* [x] resize images to fit sections
+* [x] optimize images (gulp installed)
+* [x] menu shadow on hover
+* [x] menu whole area click
+* [ ] TODO: make screenshots
+* [ ] TODO: minify files
+* [ ] TODO: research usage of img inside h1
