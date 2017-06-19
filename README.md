@@ -57,3 +57,4 @@
 * [ ] TODO: move todo outside of README, and create normal README
 * [ ] TODO: gulp screenshots
 * [ ] TODO: add no follow/ ignore me/ whatever it is - for search engines
+* [ ] Google's optimization looks terrible. Revert, but make images smaller. Seems like 800x600 is a bit excessive. Add info on responsive images.
