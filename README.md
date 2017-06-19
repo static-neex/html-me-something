@@ -45,7 +45,7 @@
   * Use document-level and inline styles sparingly, and only when absolutely necessary.
 * [x] add something from yourself.
 
-### TODO:
+### TODOs:
 * [x] re-scale images to max width (retina?)
 * [x] resize images to fit sections
 * [x] optimize images (gulp installed)
@@ -54,3 +54,6 @@
 * [ ] TODO: make screenshots
 * [x] minify files
 * [x] research usage of img inside h1 - allowed, and even used by w3 themselves :)
+* [ ] TODO: move todo outside of README, and create normal README
+* [ ] TODO: gulp screenshots
+* [ ] TODO: add no follow/ ignore me/ whatever it is - for search engines
